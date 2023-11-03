@@ -4,9 +4,9 @@ pipeline {
     stages {        
 
          // Testing
-         stage('Test') {
+         stage('angular') {
             steps {
-                echo 'Hello World'
+                echo 'Hello angular'
             }
         }
 
